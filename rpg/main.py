@@ -45,13 +45,13 @@ enemy_items = [{"item" : potion, "quantity": 15},
 
 
 #Instantiate People
-player1 = Person("Zé cueca", 300, 70, 60, 34, player_spells, player_items)
-player2 = Person("Zé ximia", 500, 50, 40, 14, player_spells, player_items)
-player3 = Person("Zé manga", 200, 80, 30, 44, player_spells, player_items)
+player1 = Person("Player 1", 300, 70, 60, 34, player_spells, player_items)
+player2 = Person("Player 2", 500, 50, 40, 14, player_spells, player_items)
+player3 = Person("Player 3", 200, 80, 30, 44, player_spells, player_items)
 
-enemy1 = Person("Marquinhos", 999, 65, 45, 25, enemy_spells, enemy_items)
-enemy2 = Person("Fiote maior", 300, 70, 70, 30, enemy_spells, enemy_items)
-enemy3 = Person("Fio do diabo", 250, 80, 50, 95, enemy_spells, enemy_items)
+enemy1 = Person("Strong enemy", 999, 65, 45, 25, enemy_spells, enemy_items)
+enemy2 = Person("Weak Enemy 1", 300, 70, 70, 30, enemy_spells, enemy_items)
+enemy3 = Person("Weak Enemy 2", 250, 80, 50, 95, enemy_spells, enemy_items)
 
 players = [player1, player2, player3]
 enemies = [enemy1, enemy2, enemy3]
